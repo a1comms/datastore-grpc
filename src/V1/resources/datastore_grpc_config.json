@@ -1,0 +1,23 @@
+{
+    "channelPool": {
+        "maxSize": 10,
+        "maxConcurrentStreamsLowWatermark": 100
+    },
+    "method": [
+        {
+            "name": [
+                "/google.datastore.v1.Datastore/Lookup"
+            ]
+        },
+        {
+            "name": [
+                "/google.datastore.v1.Datastore/Commit"
+            ]
+        },
+        {
+            "name": [
+                "/google.datastore.v1.Datastore/Query"
+            ]
+        }
+    ]
+}
